@@ -39,5 +39,13 @@ namespace BusinessRulesEngineUnitTest
             var result = _processOrderEngine.ProcessOrder("ActivateMembership");
             Assert.AreEqual(result, "ActivateMembership Called");
         }
+
+
+        [TestMethod]
+        public void ProcessOrderEngine_ProcessOrder_ForApplyUpgrade()
+        {
+            var result = _processOrderEngine.ProcessOrder("ForApplyUpgrade");
+            Assert.AreEqual(result, "ForApplyUpgrade Called");
+        }
     }
 }

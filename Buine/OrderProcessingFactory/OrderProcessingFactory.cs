@@ -15,6 +15,8 @@ namespace Buine.OrderProcessingFactory
                     return new PackingSlipFortheRoyaltyDepartment();
                 case "ActivateMembership":
                     return new ActivateMembership();
+                case "ForApplyUpgrade":
+                    return new ForApplyUpgrade();
                 default:
                     throw new NotImplementedException();
             }

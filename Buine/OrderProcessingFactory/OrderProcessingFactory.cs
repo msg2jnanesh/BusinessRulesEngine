@@ -17,6 +17,8 @@ namespace Buine.OrderProcessingFactory
                     return new ActivateMembership();
                 case "ForApplyUpgrade":
                     return new ForApplyUpgrade();
+                case "ForActivationUpgradeEmail":
+                    return new ForActivationUpgradeEmail();
                 default:
                     throw new NotImplementedException();
             }

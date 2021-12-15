@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OrderProcessingFactory\OrderProcessingFactory.cs" />
+    <Compile Include="OrderProcessing\ForActivationUpgradeEmail.cs" />
     <Compile Include="OrderProcessing\ForApplyUpgrade.cs" />
     <Compile Include="OrderProcessing\OrderProcessingBase.cs" />
     <Compile Include="OrderProcessing\ActivateMembership.cs" />

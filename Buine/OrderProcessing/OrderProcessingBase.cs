@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Buine
+namespace Buine.OrderProcessing
 {
-    public class Class1
+    internal abstract class OrderProcessingBase
     {
+        public abstract string Process();
     }
 }

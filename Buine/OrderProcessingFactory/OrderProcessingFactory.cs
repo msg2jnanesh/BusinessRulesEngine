@@ -19,6 +19,8 @@ namespace Buine.OrderProcessingFactory
                     return new ForApplyUpgrade();
                 case "ForActivationUpgradeEmail":
                     return new ForActivationUpgradeEmail();
+                case "ForFreeVideo":
+                    return new ForFreeVideo();
                 default:
                     throw new NotImplementedException();
             }

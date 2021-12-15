@@ -54,5 +54,12 @@ namespace BusinessRulesEngineUnitTest
             var result = _processOrderEngine.ProcessOrder("ForActivationUpgradeEmail");
             Assert.AreEqual(result, "ForActivationUpgradeEmail Called");
         }
+
+        [TestMethod]
+        public void ProcessOrderEngine_ProcessOrder_ForFreeVideo()
+        {
+            var result = _processOrderEngine.ProcessOrder("ForFreeVideo");
+            Assert.AreEqual(result, "ForFreeVideo Called");
+        }
     }
 }

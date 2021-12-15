@@ -13,6 +13,8 @@ namespace Buine.OrderProcessingFactory
                     return new PackingSlipForShipping();
                 case "PackingSlipFortheRoyaltyDepartment":
                     return new PackingSlipFortheRoyaltyDepartment();
+                case "ActivateMembership":
+                    return new ActivateMembership();
                 default:
                     throw new NotImplementedException();
             }

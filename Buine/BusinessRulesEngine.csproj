@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="OrderProcessingFactory\OrderProcessingFactory.cs" />
     <Compile Include="OrderProcessing\OrderProcessingBase.cs" />
+    <Compile Include="OrderProcessing\ActivateMembership.cs" />
     <Compile Include="OrderProcessing\PackingSlipForShipping.cs" />
     <Compile Include="OrderProcessing\PackingSlipFortheRoyaltyDepartment.cs" />
     <Compile Include="ProcessOrderEngine.cs" />

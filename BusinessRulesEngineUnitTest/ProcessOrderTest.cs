@@ -32,5 +32,12 @@ namespace BusinessRulesEngineUnitTest
             var result = _processOrderEngine.ProcessOrder("PackingSlipFortheRoyaltyDepartment");
             Assert.AreEqual(result, "PackingSlipFortheRoyaltyDepartment Called");
         }
+
+        [TestMethod]
+        public void ProcessOrderEngine_ProcessOrder_ForActivateMembership()
+        {
+            var result = _processOrderEngine.ProcessOrder("ActivateMembership");
+            Assert.AreEqual(result, "ActivateMembership Called");
+        }
     }
 }

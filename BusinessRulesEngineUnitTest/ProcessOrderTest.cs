@@ -61,5 +61,12 @@ namespace BusinessRulesEngineUnitTest
             var result = _processOrderEngine.ProcessOrder("ForFreeVideo");
             Assert.AreEqual(result, "ForFreeVideo Called");
         }
+
+        [TestMethod]
+        public void ProcessOrderEngine_ProcessOrder_ForCommissionPaymentToAgent()
+        {
+            var result = _processOrderEngine.ProcessOrder("CommissionPaymentToAgent");
+            Assert.AreEqual(result, "CommissionPaymentToAgent Called");
+        }
     }
 }

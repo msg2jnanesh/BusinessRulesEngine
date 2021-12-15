@@ -21,6 +21,8 @@ namespace Buine.OrderProcessingFactory
                     return new ForActivationUpgradeEmail();
                 case "ForFreeVideo":
                     return new ForFreeVideo();
+                case "CommissionPaymentToAgent":
+                    return new CommissionPaymentToAgent();
                 default:
                     throw new NotImplementedException();
             }
